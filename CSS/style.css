@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#game-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px auto;
+    width: 400px;
+    text-align: center;
+}
+
+#startGameBtn, #submitGuessBtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#startGameBtn:hover, #submitGuessBtn:hover {
+    background-color: #3e8e41;
+}
+
+#attemptsLeft {
+    margin-top: 10px;
+}
+
+#guessMessage {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.wrong-guess {
+    color: red;
+}
